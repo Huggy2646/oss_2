@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Returns the numver square
     steps:
-      -name: Cehckout
+      -name: Checkout
        uses: actions/checkout@v2
       -name: Fetch num squared
        id: et_square
